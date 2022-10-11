@@ -1,13 +1,9 @@
 package dev.kata.stringcalculator
 
-class StringCalculator(
-    private val dependency: StringCalculatorDependency,
-) {
-    fun execute() {
-        dependency.doSomething()
+class StringCalculator {
+    companion object {
+        fun add() {
+            TODO("Time to do some TDD...")
+        }
     }
-}
-
-class StringCalculatorDependency {
-    fun doSomething() {}
 }
